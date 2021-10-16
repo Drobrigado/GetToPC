@@ -1,0 +1,7 @@
+{
+  "name": "GetToPC",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
