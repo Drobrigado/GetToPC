@@ -1,11 +1,15 @@
 body{
     background-color:#3d3d3d;
 }
+#nav{
+  
+}
+
 ion-title{
   text-align: center;
   font-family: Arial;
-  font-size: 80px;
-  color: white;
+  font-size: 40px;
+  color: "white " ;
 }
 
 
@@ -17,6 +21,7 @@ ion-title{
   right:20%;
   top: 25%;
 }
+
 
 #container strong {
 text-align:center;
@@ -38,4 +43,7 @@ text-align:center;
 }
 #container h1 {
   
+}
+ion-label{
+  font-size:20px;
 }

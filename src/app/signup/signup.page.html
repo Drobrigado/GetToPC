@@ -1,10 +1,9 @@
 <body>
 
 <div id="container">
-     <ion-title>Get To PC</ion-title>
     <ion-card>
   <ion-card-header>
-    <ion-card-title><strong>Login</strong></ion-card-title>
+    <ion-card-title><strong>Signup</strong></ion-card-title>
   </ion-card-header>
 
   <ion-card-content>
@@ -14,9 +13,10 @@
     <ion-item>
       <ion-input  type="password" placeholder="Enter Password"></ion-input>
     </ion-item> 
-    <ion-button routerLink="/index" routerDirection="forward"color="primary" slots="end" strong="true" >Login</ion-button>
-
-    <p><a routerLink="/signup" routerDirection="forward">Dont have an account? Sign up now</a></p>
+    <ion-item>
+      <ion-input  type="password" placeholder="Confirm Password"></ion-input>
+    </ion-item> 
+    <ion-button routerLink="/home" routerDirection="forward"color="primary" slots="end" strong="true" >Signup</ion-button>
   </ion-card-content>
 </ion-card>
 
