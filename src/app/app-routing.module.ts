@@ -67,6 +67,50 @@ const routes: Routes = [
     path: 'opdrive',
     loadChildren: () => import('./opdrive/opdrive.module').then( m => m.OpdrivePageModule)
   },
+  {
+    path: 'cart',
+    loadChildren: () => import('./cart/cart.module').then( m => m.CartPageModule)
+  },
+  {
+    path: 'buy',
+    loadChildren: () => import('./buy/buy.module').then( m => m.BuyPageModule)
+  },
+  {
+    path: 'monitor',
+    loadChildren: () => import('./monitor/monitor.module').then( m => m.MonitorPageModule)
+  },
+  {
+    path: 'mouse',
+    loadChildren: () => import('./mouse/mouse.module').then( m => m.MousePageModule)
+  },
+  {
+    path: 'keyboard',
+    loadChildren: () => import('./keyboard/keyboard.module').then( m => m.KeyboardPageModule)
+  },
+  {
+    path: 'headsets',
+    loadChildren: () => import('./headsets/headsets.module').then( m => m.HeadsetsPageModule)
+  },
+  {
+    path: 'printers',
+    loadChildren: () => import('./printers/printers.module').then( m => m.PrintersPageModule)
+  },
+  {
+    path: 'speakers',
+    loadChildren: () => import('./speakers/speakers.module').then( m => m.SpeakersPageModule)
+  },
+  {
+    path: 'mic',
+    loadChildren: () => import('./mic/mic.module').then( m => m.MicPageModule)
+  },
+  {
+    path: 'cam',
+    loadChildren: () => import('./cam/cam.module').then( m => m.CamPageModule)
+  },
+  {
+    path: 'accessory',
+    loadChildren: () => import('./accessory/accessory.module').then( m => m.AccessoryPageModule)
+  },
 ];
 
 @NgModule({

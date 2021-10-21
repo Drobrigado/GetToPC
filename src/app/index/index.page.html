@@ -4,7 +4,7 @@
     <ion-item>
     <ion-title >Get To PC</ion-title>
     <ion-searchbar  autocomplete="on" animated="true" ></ion-searchbar>
-    <ion-button color="medium"fill="clear">
+    <ion-button color="medium"fill="clear" routerLink="/cart" routerDirection="forward">
       <ion-icon slot="icon-only" name="cart-outline"></ion-icon>
     </ion-button>
     <ion-button color="medium" routerLink="/home" routerDirection="forward" fill="clear">Log Out</ion-button>
@@ -12,76 +12,78 @@
   </ion-toolbar>
 </ion-header>
 <ion-item>
-  <ion-button color="medium" routerLink="/home" routerDirection="forward" fill="clear">All products</ion-button>
-  <ion-button color="medium" routerLink="/home" routerDirection="forward" fill="clear">PC Sets</ion-button>
-  <ion-button color="medium" routerLink="/home" routerDirection="forward" fill="clear">Laptops</ion-button>
-  <ion-button color="medium" routerLink="/home" routerDirection="forward" fill="clear">Processors</ion-button>
-  <ion-button color="medium" routerLink="/home" routerDirection="forward" fill="clear">Motherboard</ion-button>
-  <ion-button color="medium" routerLink="/home" routerDirection="forward" fill="clear">Memory Modules</ion-button>
-  <ion-button color="medium" routerLink="/home" routerDirection="forward" fill="clear">Internal Storage</ion-button>
-  <ion-button color="medium" routerLink="/home" routerDirection="forward" fill="clear">Graphics Card</ion-button>
-  <ion-button color="medium" routerLink="/home" routerDirection="forward" fill="clear">Casing</ion-button>
-  <ion-button color="medium" routerLink="/home" routerDirection="forward" fill="clear">Power Supply</ion-button>
-  <ion-button color="medium" routerLink="/home" routerDirection="forward" fill="clear">NIC Cards</ion-button>
-  <ion-button color="medium" routerLink="/home" routerDirection="forward" fill="clear">CPU Fans</ion-button>
-  <ion-button color="medium" routerLink="/home" routerDirection="forward" fill="clear">Optical Drives</ion-button>
-  
+  <ion-button color="medium" routerLink="/index" routerDirection="forward" fill="clear">All products</ion-button>
+  <ion-button color="medium" routerLink="/pcset" routerDirection="forward" fill="clear">PC Sets</ion-button>
+  <ion-button color="medium" routerLink="/laptos" routerDirection="forward" fill="clear">Laptops</ion-button>
+  <ion-button color="medium" routerLink="/processors" routerDirection="forward" fill="clear">Processors</ion-button>
+  <ion-button color="medium" routerLink="/motherboards" routerDirection="forward" fill="clear">Motherboard</ion-button>
+  <ion-button color="medium" routerLink="/memory" routerDirection="forward" fill="clear">Memory Modules</ion-button>
+  <ion-button color="medium" routerLink="/storage" routerDirection="forward" fill="clear">Internal Storage</ion-button>
+  <ion-button color="medium" routerLink="/graphics" routerDirection="forward" fill="clear">Graphics Card</ion-button>
+  <ion-button color="medium" routerLink="/casing" routerDirection="forward" fill="clear">Casing</ion-button>
+  <ion-button color="medium" routerLink="/power" routerDirection="forward" fill="clear">Power Supply</ion-button>
+  <ion-button color="medium" routerLink="/nic" routerDirection="forward" fill="clear">NIC Cards</ion-button>
+  <ion-button color="medium" routerLink="/fans" routerDirection="forward" fill="clear">CPU Fans</ion-button>
+  <ion-button color="medium" routerLink="/opdrive" routerDirection="forward" fill="clear">Optical Drives</ion-button>  
+</ion-item>
+<ion-item>
+  <ion-button color="medium" routerLink="/monitor" routerDirection="forward" fill="clear">Monitors</ion-button>
+  <ion-button color="medium" routerLink="/keyboard" routerDirection="forward" fill="clear">keyboards</ion-button>
+  <ion-button color="medium" routerLink="/mouse" routerDirection="forward" fill="clear">mouse</ion-button>
+  <ion-button color="medium" routerLink="/headsets" routerDirection="forward" fill="clear">headsets</ion-button>
+  <ion-button color="medium" routerLink="/printers" routerDirection="forward" fill="clear">printers</ion-button>
+  <ion-button color="medium" routerLink="/speakers" routerDirection="forward" fill="clear">speakers</ion-button>
+  <ion-button color="medium" routerLink="/mic" routerDirection="forward" fill="clear">microphones</ion-button>
+  <ion-button color="medium" routerLink="/cam" routerDirection="forward" fill="clear">cameras</ion-button>
+  <ion-button color="medium" routerLink="/accessory" routerDirection="forward" fill="clear">accessories</ion-button>
 </ion-item>
 <ion-content>
  
 
 <body>
-
-<ion-item>
-
-    <ion-row>
-      <ion-col>
-              
-            <img src="../assets/img/pc/pc1.webp" style=" border: solid 2px #000; border-radius: 12px;" >
-        
-    
-      </ion-col>
-      <ion-col>
-      
-         
-            <img src="../assets/img/pc/pc1.webp" style=" border: solid 2px #000; border-radius: 12px;" >
-        
-       
-      </ion-col>
-      <ion-col>
-        
-          
-            <img src="../assets/img/pc/pc1.webp" style=" border: solid 2px #000; border-radius: 12px;" >
-          
-        
-      </ion-col>
-    </ion-row>
-  </ion-item>
   <ion-item>
 
-    <ion-row>
+    <ion-row >
       <ion-col>
-              
+        <ion-card >
+          <ion-card-header >
             <img src="../assets/img/pc/pc1.webp" style=" border: solid 2px #000; border-radius: 12px;" >
-        
-    
+          <ion-card-title>Intel i3 7th Gen Desktop computer set with 22inch Monitor and Free Accessories</ion-card-title>
+        </ion-card-header>
+         <ion-item >
+         <ion-button color="medium" routerLink="/cart" routerDirection="forward" fill="clear" expand="full">Add to Cart</ion-button>
+          <ion-button color="medium" routerLink="/buy" routerDirection="forward" fill="clear" >Buy now</ion-button>
+       </ion-item>
+        </ion-card>
       </ion-col>
       <ion-col>
+        <ion-card >
+          <ion-card-header >
+            <img src="../assets/img/laptops/laptop 1.png" style=" border: solid 2px #000; border-radius: 12px;" >
+          <ion-card-title>Xiaomi Mi Laptop Pro 15,6 i7-10510U NVIDIA GeForce MX350 16GB DDR4 RAM 1 TB SSD</ion-card-title>
+        </ion-card-header>
+         <ion-item >
+         <ion-button color="medium" routerLink="/cart" routerDirection="forward" fill="clear" expand="full">Add to Cart</ion-button>
+          <ion-button color="medium" routerLink="/buy" routerDirection="forward" fill="clear" >Buy now</ion-button>
+       </ion-item>
+        </ion-card>
+      </ion-col>
+      <ion-col>
+        <ion-card >
+          <ion-card-header >
+            <img src="../assets/img/processors/processor1.webp" style=" border: solid 2px #000; border-radius: 12px;" >
+          <ion-card-title>Intel Core i5-10400F - Core i5 10th Gen Comet Lake 6-Core 2.9 GHz LGA 1200 65W Desktop Processor - BX8070110400F</ion-card-title>
+        </ion-card-header>
+         <ion-item >
+         <ion-button color="medium" routerLink="/cart" routerDirection="forward" fill="clear" expand="full">Add to Cart</ion-button>
+          <ion-button color="medium" routerLink="/buy" routerDirection="forward" fill="clear" >Buy now</ion-button>
+       </ion-item>
+        </ion-card>
+      </ion-col>
       
-         
-            <img src="../assets/img/pc/pc1.webp" style=" border: solid 2px #000; border-radius: 12px;" >
-        
-       
-      </ion-col>
-      <ion-col>
-        
-          
-            <img src="../assets/img/pc/pc1.webp" style=" border: solid 2px #000; border-radius: 12px;" >
-          
-        
-      </ion-col>
     </ion-row>
   </ion-item>
+  
 </body>
 </ion-content>
 
